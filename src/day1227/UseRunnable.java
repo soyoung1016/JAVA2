@@ -1,7 +1,5 @@
 package day1227;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 /**
  * Runnable interface를 구현하여 Thread를 사용
  * @author owner

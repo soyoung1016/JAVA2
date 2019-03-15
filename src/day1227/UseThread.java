@@ -14,18 +14,18 @@ public class UseThread extends Thread{
 		}//end for
 	}//run
 
-	public void test() {
-		for(int i=0; i<1000; i++) {
-			System.out.println("test----------->"+i);
-		}	
-	}
+//	public void test() {
+//		for(int i=0; i<1000; i++) {
+//			System.out.println("test----------->"+i);
+//		}
+//	}
 	
 	public static void main(String[] args) {
 		//4. 객체생성
 		UseThread ut = new UseThread();
 		//5. 부모클래스인 Thread가 가지고 있는 start() 호출
 		ut.start(); //start() 호출하면 start()안에서 -> run() 호출
-		ut.test();
+		//ut.test();
 	}//main
 
 }//class
